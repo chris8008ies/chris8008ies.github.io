@@ -55,7 +55,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica: arial: sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -63,6 +63,10 @@ body {
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
 }
 h1 {
   font-size: 7vw;
@@ -76,7 +80,7 @@ a {
 }
 p {
   line-height: 1.5;
-  margin: 0.75em 0;
+  margin: 0.75em;
 }
 h2 ~ p {
   font-size: 0.8em; 
@@ -237,9 +241,9 @@ h4 {
 }
 
 .full-hero:after {
-  bottom: 2vh;
   border: 10px solid;
   border-color: #fff transparent transparent;
+  bottom: 2vh;
   content: "";
   height: 0;
   left: 50%;
@@ -293,7 +297,7 @@ h4 {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list {
   list-style: none;
@@ -355,7 +359,6 @@ h4 {
 }
 .bio-box {
   
-  border-color: black black red;
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
@@ -365,7 +368,8 @@ h4 {
 }
 .bio-box h3 {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 2.5em;
+  font-family: 'Open Sans Condensed', helvetica, arial, sans;
   margin: -40px 0 1em;
   text-align: center;
   text-transform: uppercase;
@@ -379,6 +383,9 @@ h4 {
 }
 .bio-copy {
   font-size: 0.75em;
+}
+.bio-copy a{
+  color: green;
 }
 
 /* GALLERY STYLES */
